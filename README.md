@@ -1,4 +1,6 @@
-MAIN CODE FILES:
+This is my dissertation project! I did electricity consumption analysis. The report describes in detail what I have done and what I have achieved. Below is a description of each file and what you will find in each folder.
+
+Main Code Files:
 
 main.py - main skeleton for the application\
 form.kv - design file for the application\
@@ -12,7 +14,7 @@ ARIMA/modelScript.py - script that calls the model builder classes on multiple d
 ARIMA/naiveModel.py - Naive model builder class. The implementation of Naive model construction is found here.
 
 
-OTHER FILES:
+Other Files:
 
 Folder API/ was provided with the dataset files. The classes in there are used for reading electricity data from the dataset.\
 You will see there are jupyter notebooks every here and there. Ignore them, they were for testing out code before putting it in scripts.
