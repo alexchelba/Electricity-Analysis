@@ -9,7 +9,7 @@ ARIMA/EDA.py - Exploratory data analysis class. All the plots that are visible i
 ARIMA/EDA_script.py - script that calls the EDA class on multiple datasets\
 ARIMA/modelHelper.py - ARIMA model builder class. The implementation of ARIMA model construction is found here.\
 ARIMA/modelScript.py - script that calls the model builder classes on multiple datasets.\
-ARIMA/naiveModel.py - Naive model builder class. The implementation of Naive model construction is found here.\
+ARIMA/naiveModel.py - Naive model builder class. The implementation of Naive model construction is found here.
 
 
 OTHER FILES:
