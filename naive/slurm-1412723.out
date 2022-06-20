@@ -1,0 +1,408 @@
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+/home/s1865890/dissertation/MInf-Project/ARIMA/naiveModel.py:147: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results
+######### NAME: flat_2 or less people_before 1900
+Directory  naive_flat_2 or less people_before 1900  already exists
+ADF Statistic: -20.649669
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 169.90869698216164
+
+MAE for 01-04-2018 naive: 116.48183074703365
+
+MAPE for 01-04-2018 naive: 0.26988621122944506
+RMSE naive for 30-06-2018: 131.1720406863767
+
+MAE naive for 30-06-2018: 87.06981736454041
+
+MAPE naive for 30-06-2018: 0.22378348682190832
+RMSE of naive: 131.65170280381906
+
+MAE of naive: 92.0483630571406
+
+MAPE of naive: 0.3134265736298865
+forecast_normal    1.000000
+daylight           0.512788
+avg                0.435420
+hour               0.308764
+business hour      0.137781
+movave_7           0.088907
+movave_30          0.088631
+q90                0.075657
+q50                0.073600
+q10                0.063734
+movave_3           0.050693
+movstd_30          0.049022
+movstd_7           0.047084
+day                0.043990
+weekend            0.022945
+movstd_3           0.022733
+season            -0.044946
+month             -0.045393
+qtr                     NaN
+
+
+######### NAME: flat_2 or less people_after 1900
+Directory  naive_flat_2 or less people_after 1900  already exists
+ADF Statistic: -23.741463
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 222.67328455647586
+
+MAE for 01-04-2018 naive: 153.73744346700073
+
+MAPE for 01-04-2018 naive: 0.47875569912848936
+RMSE naive for 30-06-2018: 96.13581913022529
+
+MAE naive for 30-06-2018: 64.26110504113286
+
+MAPE naive for 30-06-2018: 0.23576259195959703
+RMSE of naive: 146.7862324665311
+
+MAE of naive: 102.05683972240924
+
+MAPE of naive: 0.3953364599340621
+forecast_normal    1.000000
+hour               0.399208
+avg                0.390754
+daylight           0.307210
+movave_30          0.210295
+movstd_30          0.202484
+movave_7           0.200617
+q90                0.188567
+q50                0.176697
+movave_3           0.175046
+movstd_7           0.170887
+q10                0.157509
+movstd_3           0.155519
+weekend            0.056575
+day                0.019060
+business hour     -0.049432
+season            -0.163199
+month             -0.194913
+qtr                     NaN
+
+
+######### NAME: flat_3 or more people_before 1900
+Directory  naive_flat_3 or more people_before 1900  already exists
+ADF Statistic: -30.558432
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 185.29657202753987
+
+MAE for 01-04-2018 naive: 130.65334898039325
+
+MAPE for 01-04-2018 naive: 0.3866456047821307
+RMSE naive for 30-06-2018: 95.10055745023413
+
+MAE naive for 30-06-2018: 72.96814558658774
+
+MAPE naive for 30-06-2018: 0.20806201234201452
+RMSE of naive: 168.67467718052063
+
+MAE of naive: 117.01702434400418
+
+MAPE of naive: 0.36074182139150274
+forecast_normal    1.000000
+daylight           0.453041
+avg                0.449160
+hour               0.273450
+weekend            0.068121
+movave_30          0.066366
+movstd_30          0.065187
+movave_7           0.061060
+q90                0.056160
+q50                0.055548
+business hour      0.049097
+day                0.043311
+movstd_7           0.030952
+q10                0.030169
+movave_3           0.028447
+movstd_3           0.016317
+season            -0.036166
+month             -0.047067
+qtr                     NaN
+
+
+######### NAME: flat_3 or more people_after 1900
+Directory  naive_flat_3 or more people_after 1900  Created 
+ADF Statistic: -19.310456
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 255.30150716925039
+
+MAE for 01-04-2018 naive: 181.08050864860266
+
+MAPE for 01-04-2018 naive: 0.5522733006020493
+RMSE naive for 30-06-2018: 165.5505593071952
+
+MAE naive for 30-06-2018: 114.11880326427558
+
+MAPE naive for 30-06-2018: 0.27728934952214357
+RMSE of naive: 168.58420438341017
+
+MAE of naive: 122.44374169016717
+
+MAPE of naive: 0.37467204878484534
+forecast_normal    1.000000
+daylight           0.460478
+avg                0.458122
+hour               0.406065
+business hour      0.230808
+movave_30          0.150460
+movave_7           0.137830
+q90                0.132712
+movstd_30          0.124409
+movstd_7           0.112641
+q50                0.109870
+movave_3           0.102023
+movstd_3           0.085469
+day                0.058453
+weekend            0.047030
+q10                0.005092
+season            -0.079227
+month             -0.124114
+qtr                     NaN
+
+
+######### NAME: house_2 or less people_after 1965
+Directory  naive_house_2 or less people_after 1965  Created 
+ADF Statistic: -21.620902
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 157.6358916374603
+
+MAE for 01-04-2018 naive: 108.97722404017257
+
+MAPE for 01-04-2018 naive: 0.28496799226088926
+RMSE naive for 30-06-2018: 93.62721412021122
+
+MAE naive for 30-06-2018: 65.78716238259717
+
+MAPE naive for 30-06-2018: 0.23774159567967235
+RMSE of naive: 150.49509168992927
+
+MAE of naive: 102.98391221458955
+
+MAPE of naive: 0.33925640479768804
+forecast_normal    1.000000
+avg                0.454690
+daylight           0.407543
+hour               0.339951
+movave_30          0.149096
+movave_7           0.142724
+q90                0.139885
+movstd_30          0.137023
+movstd_7           0.129080
+weekend            0.117088
+movave_3           0.108837
+day                0.107278
+q50                0.101390
+q10                0.100797
+movstd_3           0.095007
+business hour      0.064002
+season            -0.075592
+month             -0.125899
+qtr                     NaN
+
+
+######### NAME: house_2 or less people_before 1965
+Directory  naive_house_2 or less people_before 1965  Created 
+ADF Statistic: -28.239233
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 162.1679753609435
+
+MAE for 01-04-2018 naive: 117.4511677217951
+
+MAPE for 01-04-2018 naive: 0.24736375098928587
+RMSE naive for 30-06-2018: 193.9608734289436
+
+MAE naive for 30-06-2018: 137.89821687428739
+
+MAPE naive for 30-06-2018: 0.36589601765517754
+RMSE of naive: 160.31227243153813
+
+MAE of naive: 114.15531182575016
+
+MAPE of naive: 0.30468719139264006
+forecast_normal    1.000000
+avg                0.550335
+daylight           0.454955
+hour               0.326429
+movave_30          0.081840
+q10                0.079892
+weekend            0.070763
+movave_7           0.070755
+q50                0.069481
+q90                0.041056
+day                0.036955
+movstd_30          0.030265
+movave_3           0.021385
+business hour     -0.021419
+movstd_7          -0.031083
+season            -0.031233
+month             -0.037235
+movstd_3          -0.037951
+qtr                     NaN
+
+
+######### NAME: house_3 or more people_before 1965
+Directory  naive_house_3 or more people_before 1965  Created 
+ADF Statistic: -10.902647
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 343.830055897732
+
+MAE for 01-04-2018 naive: 269.52516828315134
+
+MAPE for 01-04-2018 naive: 0.6823270803542991
+RMSE naive for 30-06-2018: 148.29053117284417
+
+MAE naive for 30-06-2018: 110.12156796443522
+
+MAPE naive for 30-06-2018: 0.20790256959012496
+RMSE of naive: 185.8706820472109
+
+MAE of naive: 138.20950271794024
+
+MAPE of naive: 0.2689389197755382
+forecast_normal    1.000000
+avg                0.584561
+daylight           0.486132
+hour               0.478768
+business hour      0.114086
+weekend            0.106072
+day                0.103497
+movave_30          0.101510
+movstd_30          0.093754
+movave_7           0.091963
+q10                0.088007
+q50                0.084413
+q90                0.081426
+movstd_7           0.078248
+movave_3           0.019375
+movstd_3           0.014869
+season            -0.061534
+month             -0.093346
+qtr                     NaN
+
+
+######### NAME: house_3 or more people_after 1965
+Directory  naive_house_3 or more people_after 1965  Created 
+ADF Statistic: -17.640761
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018 naive: 298.1169971198992
+
+MAE for 01-04-2018 naive: 176.71640934721847
+
+MAPE for 01-04-2018 naive: 0.41029213550109384
+RMSE naive for 30-06-2018: 158.47330907609899
+
+MAE naive for 30-06-2018: 109.29377701726071
+
+MAPE naive for 30-06-2018: 0.3073655841283134
+RMSE of naive: 203.47452084796333
+
+MAE of naive: 144.01419822714826
+
+MAPE of naive: 0.3983249707395261
+forecast_normal    1.000000
+avg                0.462484
+daylight           0.450949
+hour               0.300874
+business hour      0.106041
+movave_7           0.092085
+movave_30          0.091810
+movstd_30          0.087141
+movstd_7           0.080698
+q90                0.077040
+movave_3           0.061302
+q50                0.061116
+movstd_3           0.052691
+weekend            0.037248
+day                0.031954
+season            -0.025662
+q10               -0.027958
+month             -0.056175
+qtr                     NaN
+
+

@@ -1,0 +1,432 @@
+/home/s1865890/miniconda3/envs/mlp/lib/python3.9/site-packages/statsmodels/tsa/base/tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency 30T will be used.
+  self._init_dates(dates, freq)
+/home/s1865890/miniconda3/envs/mlp/lib/python3.9/site-packages/statsmodels/base/model.py:604: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/home/s1865890/dissertation/MInf-Project/ARIMA/modelHelper.py:241: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results.predicted_mean
+/home/s1865890/miniconda3/envs/mlp/lib/python3.9/site-packages/statsmodels/tsa/base/tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency 30T will be used.
+  self._init_dates(dates, freq)
+/home/s1865890/miniconda3/envs/mlp/lib/python3.9/site-packages/statsmodels/base/model.py:604: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/home/s1865890/dissertation/MInf-Project/ARIMA/modelHelper.py:241: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results.predicted_mean
+/home/s1865890/miniconda3/envs/mlp/lib/python3.9/site-packages/statsmodels/tsa/base/tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency 30T will be used.
+  self._init_dates(dates, freq)
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           14     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  6.08064D+00    |proj g|=  1.17496D-01
+
+At iterate    5    f=  6.04102D+00    |proj g|=  8.02412D-02
+
+At iterate   10    f=  6.03524D+00    |proj g|=  3.35558D-03
+
+At iterate   15    f=  6.03379D+00    |proj g|=  2.44334D-02
+
+At iterate   20    f=  5.98450D+00    |proj g|=  2.23367D-01
+
+At iterate   25    f=  5.96666D+00    |proj g|=  1.10491D-02
+
+At iterate   30    f=  5.96657D+00    |proj g|=  3.93593D-04
+
+At iterate   35    f=  5.96649D+00    |proj g|=  6.56412D-03
+
+At iterate   40    f=  5.96604D+00    |proj g|=  1.71582D-03
+
+At iterate   45    f=  5.96604D+00    |proj g|=  6.20690D-04
+
+At iterate   50    f=  5.96604D+00    |proj g|=  6.88879D-05
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+   14     50     59      1     0     0   6.889D-05   5.966D+00
+  F =   5.9660375503074681     
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           14     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  6.30888D+00    |proj g|=  1.45483D-01
+
+At iterate    5    f=  6.26943D+00    |proj g|=  5.42013D-02
+
+At iterate   10    f=  6.26559D+00    |proj g|=  2.81921D-03
+
+At iterate   15    f=  6.26509D+00    |proj g|=  2.87896D-02
+
+At iterate   20    f=  6.25930D+00    |proj g|=  7.65616D-02
+
+At iterate   25    f=  6.19701D+00    |proj g|=  1.37038D-01
+
+At iterate   30    f=  6.18278D+00    |proj g|=  2.64311D-02
+
+At iterate   35    f=  6.18260D+00    |proj g|=  8.06498D-03
+
+At iterate   40    f=  6.18259D+00    |proj g|=  2.47764D-04
+
+At iterate   45    f=  6.18257D+00    |proj g|=  5.88402D-03
+
+At iterate   50    f=  6.18210D+00    |proj g|=  1.02830D-02
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+   14     50     59      1     0     0   1.028D-02   6.182D+00
+  F =   6.1820974334704406     
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           14     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  6.33311D+00    |proj g|=  1.30898D-01
+
+At iterate    5    f=  6.29265D+00    |proj g|=  7.69295D-02
+
+At iterate   10    f=  6.29133D+00    |proj g|=  3.24612D-03
+
+At iterate   15    f=  6.29072D+00    |proj g|=  8.10677D-03
+
+At iterate   20    f=  6.28950D+00    |proj g|=  6.65507D-02
+
+At iterate   25    f=  6.22260D+00    |proj g|=  7.97362D-02
+
+At iterate   30    f=  6.21483D+00    |proj g|=  1.45575D-02
+
+At iterate   35    f=  6.21476D+00    |proj g|=  2.37678D-04
+
+At iterate   40    f=  6.21469D+00    |proj g|=  3.76828D-03
+
+At iterate   45    f=  6.21413D+00    |proj g|=  2.70811D-02
+
+At iterate   50    f=  6.21404D+00    |proj g|=  4.96874D-04
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+/home/s1865890/miniconda3/envs/mlp/lib/python3.9/site-packages/statsmodels/base/model.py:604: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+/home/s1865890/dissertation/MInf-Project/ARIMA/modelHelper.py:241: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df_test['forecast_normal'] = results.predicted_mean
+######### NAME: flat_2 or less people_before 1900
+Directory  Model_incercam3_flat_2 or less people_before 1900  already exists
+exogenous features:  ['business hour', 'qtr', 'daylight', 'weekend', 'hour', 'season', 'day', 'month']
+arima_flat_2 or less people_before 1900.pkl: 
+                                      SARIMAX Results                                       
+============================================================================================
+Dep. Variable:                                  avg   No. Observations:                20365
+Model:             SARIMAX(1, 0, 2)x(1, 1, [1], 48)   Log Likelihood             -121498.355
+Date:                              Tue, 05 Apr 2022   AIC                         243024.709
+Time:                                      20:55:10   BIC                         243135.543
+Sample:                                  01-31-2017   HQIC                        243060.948
+                                       - 03-31-2018                                         
+Covariance Type:                                opg                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+business hour   -55.9265      4.316    -12.959      0.000     -64.385     -47.468
+qtr              -4.9023      7.134     -0.687      0.492     -18.885       9.080
+daylight        -12.9208      4.715     -2.740      0.006     -22.162      -3.679
+weekend          -8.6497      3.524     -2.455      0.014     -15.556      -1.744
+hour              0.0001     49.227   2.07e-06      1.000     -96.483      96.483
+season            1.1940      2.112      0.565      0.572      -2.946       5.334
+day               1.1176      1.247      0.896      0.370      -1.326       3.561
+month             1.2087      2.221      0.544      0.586      -3.145       5.562
+ar.L1             0.7415      0.014     54.537      0.000       0.715       0.768
+ma.L1            -0.3462      0.015    -23.674      0.000      -0.375      -0.318
+ma.L2            -0.0855      0.009    -10.009      0.000      -0.102      -0.069
+ar.S.L48          0.0811      0.005     15.715      0.000       0.071       0.091
+ma.S.L48         -0.9642      0.002   -612.490      0.000      -0.967      -0.961
+sigma2         9391.9647     43.206    217.378      0.000    9307.283    9476.646
+===================================================================================
+Ljung-Box (L1) (Q):                   0.03   Jarque-Bera (JB):             69049.39
+Prob(Q):                              0.86   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.80   Skew:                             1.89
+Prob(H) (two-sided):                  0.00   Kurtosis:                        11.21
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+<class 'statsmodels.tsa.statespace.mlemodel.PredictionResultsWrapper'>
+results: 
+ <statsmodels.tsa.statespace.mlemodel.PredictionResultsWrapper object at 0x7f873c233c70>
+ADF Statistic: -15.377369
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018: 140.24241310763583
+
+MAE for 01-04-2018: 101.16794127823619
+
+MAPE for 01-04-2018: 0.2607508187969751
+RMSE for 30-06-2018: 126.37935591835272
+
+MAE for 30-06-2018: 81.22186478721638
+
+MAPE for 30-06-2018: 0.2472994388959396
+RMSE of Auto ARIMAX: 108.14517187285124
+
+MAE of Auto ARIMAX: 77.86501480813558
+
+MAPE of Auto ARIMAX: 0.26803735903784465
+forecast_normal    1.000000
+daylight           0.677339
+hour               0.663633
+avg                0.541458
+business hour      0.162205
+day                0.058200
+weekend            0.053554
+season             0.011682
+month              0.009990
+q10                0.003918
+movstd_3           0.000471
+movave_3           0.000179
+movstd_7          -0.005706
+movave_30         -0.007129
+q90               -0.007550
+movave_7          -0.009364
+movstd_30         -0.009491
+q50               -0.011872
+qtr                     NaN
+
+
+######### NAME: flat_2 or less people_after 1900
+Directory  Model_incercam3_flat_2 or less people_after 1900  already exists
+exogenous features:  ['business hour', 'qtr', 'daylight', 'weekend', 'hour', 'season', 'day', 'month']
+arima_flat_2 or less people_after 1900.pkl: 
+                                      SARIMAX Results                                       
+============================================================================================
+Dep. Variable:                                  avg   No. Observations:                21388
+Model:             SARIMAX(1, 0, 2)x(1, 1, [1], 48)   Log Likelihood             -132222.700
+Date:                              Tue, 05 Apr 2022   AIC                         264473.400
+Time:                                      22:51:44   BIC                         264584.923
+Sample:                                  01-10-2017   HQIC                        264509.777
+                                       - 03-31-2018                                         
+Covariance Type:                                opg                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+business hour   -88.3342      5.238    -16.864      0.000     -98.600     -78.068
+qtr              -3.9569      8.165     -0.485      0.628     -19.960      12.046
+daylight         36.4578      5.148      7.082      0.000      26.369      46.547
+weekend           5.4859      4.078      1.345      0.179      -2.507      13.479
+hour              0.0086    278.300   3.09e-05      1.000    -545.450     545.467
+season           -3.0820      2.300     -1.340      0.180      -7.590       1.426
+day              -3.3266      1.455     -2.286      0.022      -6.179      -0.474
+month            -0.9818      2.482     -0.396      0.692      -5.847       3.883
+ar.L1             0.7487      0.015     51.275      0.000       0.720       0.777
+ma.L1            -0.3973      0.016    -25.612      0.000      -0.428      -0.367
+ma.L2            -0.0745      0.009     -8.171      0.000      -0.092      -0.057
+ar.S.L48          0.0155      0.006      2.502      0.012       0.003       0.028
+ma.S.L48         -1.0331      0.002   -566.479      0.000      -1.037      -1.030
+sigma2         1.385e+04     90.869    152.453      0.000    1.37e+04     1.4e+04
+===================================================================================
+Ljung-Box (L1) (Q):                   0.50   Jarque-Bera (JB):             32109.91
+Prob(Q):                              0.48   Prob(JB):                         0.00
+Heteroskedasticity (H):               1.14   Skew:                             1.54
+Prob(H) (two-sided):                  0.00   Kurtosis:                         8.16
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+<class 'statsmodels.tsa.statespace.mlemodel.PredictionResultsWrapper'>
+results: 
+ <statsmodels.tsa.statespace.mlemodel.PredictionResultsWrapper object at 0x7f873bbdb340>
+ADF Statistic: -19.566853
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018: 141.11292244757004
+
+MAE for 01-04-2018: 111.23813203231968
+
+MAPE for 01-04-2018: 0.39793374189207736
+RMSE for 30-06-2018: 124.18885302625847
+
+MAE for 30-06-2018: 105.01399001791397
+
+MAPE for 30-06-2018: 0.5219690781928259
+RMSE of Auto ARIMAX: 147.55247360387065
+
+MAE of Auto ARIMAX: 121.02289050100624
+
+MAPE of Auto ARIMAX: 0.5597624985246608
+forecast_normal    1.000000
+hour               0.782910
+avg                0.535893
+daylight           0.497677
+weekend            0.121682
+day                0.082198
+q10                0.001716
+month             -0.000315
+season            -0.001505
+movstd_7          -0.006056
+movstd_3          -0.007574
+q90               -0.007629
+q50               -0.008299
+movave_7          -0.008343
+movave_3          -0.009470
+movstd_30         -0.009531
+movave_30         -0.010039
+business hour     -0.094085
+qtr                     NaN
+
+
+######### NAME: flat_3 or more people_before 1900
+Directory  Model_incercam3_flat_3 or more people_before 1900  already exists
+exogenous features:  ['business hour', 'qtr', 'daylight', 'weekend', 'hour', 'season', 'day', 'month']
+arima_flat_3 or more people_before 1900.pkl: 
+                                      SARIMAX Results                                       
+============================================================================================
+Dep. Variable:                                  avg   No. Observations:                20287
+Model:             SARIMAX(1, 0, 2)x(1, 1, [1], 48)   Log Likelihood             -126064.188
+Date:                              Wed, 06 Apr 2022   AIC                         252156.376
+Time:                                      00:35:38   BIC                         252267.156
+Sample:                                  02-02-2017   HQIC                        252192.604
+                                       - 03-31-2018                                         
+Covariance Type:                                opg                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+business hour   -62.4396      5.318    -11.742      0.000     -72.862     -52.017
+qtr              15.0890      9.355      1.613      0.107      -3.247      33.425
+daylight         -9.7887      5.937     -1.649      0.099     -21.424       1.847
+weekend           1.2741      4.152      0.307      0.759      -6.864       9.412
+hour              0.0110    192.487   5.71e-05      1.000    -377.256     377.278
+season            6.9033      2.865      2.410      0.016       1.289      12.518
+day               1.1346      1.487      0.763      0.445      -1.780       4.049
+month            -2.5657      2.810     -0.913      0.361      -8.074       2.942
+ar.L1             0.7309      0.016     46.059      0.000       0.700       0.762
+ma.L1            -0.3245      0.017    -19.368      0.000      -0.357      -0.292
+ma.L2            -0.1113      0.010    -11.500      0.000      -0.130      -0.092
+ar.S.L48          0.0245      0.005      4.624      0.000       0.014       0.035
+ma.S.L48         -0.9483      0.002   -592.007      0.000      -0.951      -0.945
+sigma2          1.55e+04     76.509    202.621      0.000    1.54e+04    1.57e+04
+===================================================================================
+Ljung-Box (L1) (Q):                   0.05   Jarque-Bera (JB):             44227.06
+Prob(Q):                              0.83   Prob(JB):                         0.00
+Heteroskedasticity (H):               1.51   Skew:                             1.57
+Prob(H) (two-sided):                  0.00   Kurtosis:                         9.54
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+<class 'statsmodels.tsa.statespace.mlemodel.PredictionResultsWrapper'>
+results: 
+ <statsmodels.tsa.statespace.mlemodel.PredictionResultsWrapper object at 0x7f873c1b1490>
+ADF Statistic: -12.777735
+p-value: 0.000000
+Critical Values:
+	1%: -3.432
+	5%: -2.862
+	10%: -2.567
+Reject the null hypothesis (H0), the data is stationary.
+RMSE for 01-04-2018: 148.43339725879395
+
+MAE for 01-04-2018: 109.80314993276404
+
+MAPE for 01-04-2018: 0.39334964383667836
+RMSE for 30-06-2018: 104.68219824348616
+
+MAE for 30-06-2018: 78.26857840432756
+
+MAPE for 30-06-2018: 0.24301114024964998
+RMSE of Auto ARIMAX: 151.14584812171606
+
+MAE of Auto ARIMAX: 115.46900840932565
+
+MAPE of Auto ARIMAX: 0.3955352369095851
+forecast_normal    1.000000
+daylight           0.660127
+hour               0.600683
+avg                0.522818
+weekend            0.108211
+day                0.097454
+business hour      0.068430
+season             0.010297
+q10                0.004379
+movave_7           0.001801
+q50                0.001686
+month              0.001223
+movstd_7           0.001078
+q90                0.000507
+movave_30         -0.005262
+movave_3          -0.007397
+movstd_30         -0.008916
+movstd_3          -0.013915
+qtr                     NaN
+
+
+ This problem is unconstrained.
+ This problem is unconstrained.
+ This problem is unconstrained.
+   14     50     59      1     0     0   4.969D-04   6.214D+00
+  F =   6.2140379618523713     
+
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT                 
